@@ -1,6 +1,7 @@
 package com.blog.blogappappis.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -12,8 +13,7 @@ import java.util.Set;
 
 @Entity
 @Table(name = "posts")
-@Getter
-@Setter
+@Data
 @NoArgsConstructor
 public class  Post {
 
